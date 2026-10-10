@@ -5,3 +5,20 @@ nvim
 
 spell/
 lazy-lock.json
+
+# --- tree-sitter build artifacts and dependencies ---
+/build/
+/prebuilds/
+/target/
+/node_modules/
+*.o
+*.a
+*.dylib
+*.so
+*.bundle
+tree-sitter-clockwork.pc
+
+# --- editor / OS / local ---
+.DS_Store
+.idea/
+.nvimlog
